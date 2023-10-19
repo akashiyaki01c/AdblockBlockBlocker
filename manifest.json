@@ -1,7 +1,7 @@
 {
 	"name": "Xifire YT Adblock Block Blocker",
 	"description": "YT adblock block blocker",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"manifest_version": 3,
 	"permissions": ["tabs"],
 	"content_scripts": [
@@ -11,7 +11,7 @@
 			"js": [
 				"script.js"
 			],
-			"run_at": "document_end",
+			"run_at": "document_start",
 			"all_frames": false
 		}
 	],
